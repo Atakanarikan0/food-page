@@ -1,0 +1,267 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: system-ui;
+}
+.container {
+  width: 1440px;
+  margin-inline: auto;
+
+}
+.header-navbar {
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 32px 165px ;
+}
+.header-links {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+}
+.header-links a {
+  color: #212121;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+}
+.header-links  .active {
+  background: url(../img/down-icon.svg) no-repeat right;
+  padding-right: 15px;
+}
+.user-info img {
+  vertical-align: middle;
+}
+.user-info a {
+  text-decoration: none;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  background: url(../img/down-icon.svg) no-repeat right;
+  padding-right: 15px;
+}
+.header-image {
+  width: 1440px;
+  height: 784px;
+  background: url(../img/recipes-page.png) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.header-blog {
+  width: 920px;
+  height: 266px;
+  text-align: center;
+}
+h1 {
+  font-family: "Montserrat";
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 81px;
+  letter-spacing: -0.8999999761581421px;
+  color: #fff;
+}
+.header-blog .header-btn {
+  background-color: #FD7E14;
+  padding: 16px 64px 16px 64px;
+  border-radius: 3px 0px 0px 0px;
+  border: 1px solid transparent;
+  margin-top: 40px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.title {
+  padding-inline: 165px;
+}
+.food-menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 64px;
+  margin-bottom: 112px;
+  padding-top: 35px;
+}
+.menu-card {
+  text-align: center;
+}
+h6 {
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: #212121;
+}
+.latest-recipes {
+  margin-top: 112px;
+  margin-bottom: 80px;
+}
+.latest-recipes h3 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  margin-bottom: 32px;
+}
+.total-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.card-recipe {
+  width: 259px;
+}
+.card-recipe h3 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.recipe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.recipe-btn button {
+  border: 1px solid #121212;
+  padding: 16px 48px 16px 48px;
+  border-radius: 3px 0px 0px 0px;
+  font-family: "Montserrat";
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.deals {
+  background: url(../img/deals.png) no-repeat;
+  text-align: center;
+  padding: 96px 342px;
+}
+.deals h1 {
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -0.4000000059604645px;
+  margin-bottom: 16px;
+}
+.recipe-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 120px;
+}
+.recipe-video img {
+  border-radius: 12px ;
+}
+.video-title h6 {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #212121;
+  background: url(../img/trending-icon.svg) no-repeat left;
+  padding-left: 30px;
+  margin-bottom: 16px;
+}
+.video-title h3 {
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -0.699999988079071px;
+  margin-bottom: 32px;
+}
+.video-title button {
+  padding: 16px 64px ;
+  border-radius: 3px;
+  background-color: #FD7E14;
+  border: 1px solid transparent;
+}
+.collections h3 {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  margin-bottom: 32px;
+}
+.featured-foods {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 80px;
+}
+.featured-foods h2 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: -0.3499999940395355px;
+  color: #212121;
+}
+.featured-foods img {
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+.left {
+  position: relative;
+}
+.right {
+  position: relative;
+}
+span {
+  border: 1px solid #121212;
+  padding: 4px 24px ;
+  border-radius: 3px ;
+  background-color: #fff;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.footer {
+  border-top: 1px solid #ccc;
+  padding:56px 165px 40px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+.footer-links .footer-list {
+  display: flex;
+  list-style: none;
+  gap: 56px;
+}
+.footer-list a {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  color: #212121;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info p {
+  color: #807E7E;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer .social {
+  display: flex;
+  gap: 40px ;
+}
